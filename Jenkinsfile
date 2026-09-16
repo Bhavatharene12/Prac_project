@@ -6,8 +6,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Ensure you replace the URL with your real repo link later if using SCM
                 git branch: 'main', url: 'https://github.com/Bhavatharene12/Prac_project.git'
+            }
         }
         stage('Show Parameter') {
             steps {
